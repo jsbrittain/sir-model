@@ -44,3 +44,9 @@ After modifying files:
 - Do not create tests unless explicitly requested.
 - Do not commit, push or open pull requests without explicit authorisation.
 
+## Code quality
+
+Before completing a coding task:
+- Run `ruff check .`
+- Run `ruff format --check .`
+- Report any failures.
